@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change the content</title>
+</head>
+<body>
+
+<div id="myElement">
+    <p>Welcome to my website</p>
+</div>
+
+<script>
+    // Get the element
+    var myElement = document.getElementById("myElement");
+    
+    // Get the <p> element inside myElement
+    var paragraph = myElement.querySelector("p");
+    
+    // Change the content
+    paragraph.textContent = "Hello there";
+</script>
+
+</body>
+</html>
